@@ -1,0 +1,176 @@
+{
+  "output": {
+    "blocklist": [],
+    "equalizer#0": {
+      "balance": 0.0,
+      "bypass": false,
+      "input-gain": -1.0,
+      "left": {
+        "band0": {
+          "frequency": 95.0,
+          "gain": 1.2,
+          "mode": "APO (DR)",
+          "mute": false,
+          "q": 0.71,
+          "slope": "x1",
+          "solo": false,
+          "type": "Lo-shelf",
+          "width": 4.0
+        },
+        "band1": {
+          "frequency": 250.0,
+          "gain": -0.8,
+          "mode": "APO (DR)",
+          "mute": false,
+          "q": 1.0,
+          "slope": "x1",
+          "solo": false,
+          "type": "Bell",
+          "width": 4.0
+        },
+        "band2": {
+          "frequency": 2000.0,
+          "gain": -0.8,
+          "mode": "APO (DR)",
+          "mute": false,
+          "q": 1.0,
+          "slope": "x1",
+          "solo": false,
+          "type": "Bell",
+          "width": 4.0
+        },
+        "band3": {
+          "frequency": 3500.0,
+          "gain": -1.2,
+          "mode": "APO (DR)",
+          "mute": false,
+          "q": 1.3,
+          "slope": "x1",
+          "solo": false,
+          "type": "Bell",
+          "width": 4.0
+        },
+        "band4": {
+          "frequency": 7500.0,
+          "gain": -0.8,
+          "mode": "APO (DR)",
+          "mute": false,
+          "q": 1.2,
+          "slope": "x1",
+          "solo": false,
+          "type": "Bell",
+          "width": 4.0
+        },
+        "band5": {
+          "frequency": 11000.0,
+          "gain": -0.5,
+          "mode": "APO (DR)",
+          "mute": false,
+          "q": 0.71,
+          "slope": "x1",
+          "solo": false,
+          "type": "Hi-shelf",
+          "width": 4.0
+        }
+      },
+      "mode": "IIR",
+      "num-bands": 6,
+      "output-gain": 0.0,
+      "pitch-left": 0.0,
+      "pitch-right": 0.0,
+      "right": {
+        "band0": {
+          "frequency": 95.0,
+          "gain": 1.2,
+          "mode": "APO (DR)",
+          "mute": false,
+          "q": 0.71,
+          "slope": "x1",
+          "solo": false,
+          "type": "Lo-shelf",
+          "width": 4.0
+        },
+        "band1": {
+          "frequency": 250.0,
+          "gain": -0.8,
+          "mode": "APO (DR)",
+          "mute": false,
+          "q": 1.0,
+          "slope": "x1",
+          "solo": false,
+          "type": "Bell",
+          "width": 4.0
+        },
+        "band2": {
+          "frequency": 2000.0,
+          "gain": -0.8,
+          "mode": "APO (DR)",
+          "mute": false,
+          "q": 1.0,
+          "slope": "x1",
+          "solo": false,
+          "type": "Bell",
+          "width": 4.0
+        },
+        "band3": {
+          "frequency": 3500.0,
+          "gain": -1.2,
+          "mode": "APO (DR)",
+          "mute": false,
+          "q": 1.3,
+          "slope": "x1",
+          "solo": false,
+          "type": "Bell",
+          "width": 4.0
+        },
+        "band4": {
+          "frequency": 7500.0,
+          "gain": -0.8,
+          "mode": "APO (DR)",
+          "mute": false,
+          "q": 1.2,
+          "slope": "x1",
+          "solo": false,
+          "type": "Bell",
+          "width": 4.0
+        },
+        "band5": {
+          "frequency": 11000.0,
+          "gain": -0.5,
+          "mode": "APO (DR)",
+          "mute": false,
+          "q": 0.71,
+          "slope": "x1",
+          "solo": false,
+          "type": "Hi-shelf",
+          "width": 4.0
+        }
+      },
+      "split-channels": false
+    },
+    "limiter#0": {
+      "alr": true,
+      "alr-attack": 5.0,
+      "alr-knee": 0.0,
+      "alr-release": 50.0,
+      "attack": 5.0,
+      "bypass": false,
+      "dithering": "None",
+      "external-sidechain": false,
+      "gain-boost": false,
+      "input-gain": 0.0,
+      "lookahead": 5.0,
+      "mode": "Herm Thin",
+      "output-gain": 0.0,
+      "oversampling": "Half x4(3L)",
+      "release": 50.0,
+      "sidechain-preamp": 0.0,
+      "stereo-link": 100.0,
+      "threshold": -1.5
+    },
+    "plugins_order": [
+      "equalizer#0",
+      "limiter#0"
+    ]
+  }
+}
