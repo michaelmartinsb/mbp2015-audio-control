@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Audio Profile Switcher
+Comment=Choose the active EasyEffects playback or microphone profile
+Exec=__INSTALL_DIR__/select-audio-profile.sh
+Icon=multimedia-volume-control
+Path=__INSTALL_DIR__
+Terminal=false
+Categories=Utility;AudioVideo;
+StartupNotify=true
